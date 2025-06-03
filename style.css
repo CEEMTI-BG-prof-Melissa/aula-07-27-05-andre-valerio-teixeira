@@ -1,0 +1,33 @@
+body{
+    background: url("lightning-mcqueen-in-cars-2-lightning-mcqueen-from-cars-the-movie-wallpaper-preview.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+input[required]{
+    border: red solid 1px;                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
+}
+
+input[type="password"]{
+    background-color: lightgray;
+}
+
+a[href^= "https"]{
+    color: green;
+}
+
+a[href$= ".pdf"]{
+    color: pink;
+}
+
+a[href*= "exemplo"]{
+    font-weight: bold;
+}
+
+div[class~="ativo"]{
+    background-color: lightblue;
+}
+
+p[lang|="pt"]{
+    color: green;
+}
